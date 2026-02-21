@@ -296,7 +296,7 @@ This triggers the `production` build profile in `eas.json`, which produces an An
 
 ## Troubleshooting
 
-**App crashes immediately on launch**
+**If app crashes immediately on launch**
 Verify that the Groq API key is correctly pasted into `src/groqService.js`. Ensure there are no extra spaces, line breaks, or nested quote characters inside the string value.
 
 **"Invalid API key" error when analyzing a photo**
