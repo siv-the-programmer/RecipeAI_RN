@@ -6,7 +6,7 @@ The app runs on Android and iOS from a single codebase. It uses the Groq API wit
 
 ---
 
-<img src="asset/pic1.jpg" width="400" alt="addpic">
+<img src="assets/pic1.jpg" width="400" alt="addpic">
 
 ## Table of Contents
 
@@ -39,19 +39,19 @@ Users can take a photo directly through the in-app camera or select an existing 
 
 ### Six AI-Generated Recipe Ideas
 
-<img src="asset/pic2.jpg" width="400" alt="addpic">
+<img src="assets/pic2.jpg" width="400" alt="addpic">
 
 Alongside the ingredient list, the initial API call returns exactly six recipe suggestions. Each suggestion includes a title, emoji, difficulty rating (Easy, Medium, or Hard), estimated time, and a one-sentence description. These are displayed on the Recipe List screen as animated cards that stagger into view on load.
 
 ### Full Recipe Generation
 
-<img src="asset/pic3.jpg" width="400" alt="addpic">
+<img src="assets/pic3.jpg" width="400" alt="addpic">
 
 When the user selects a recipe, a second Groq API call is made using only the recipe title and detected ingredient list as inputs. The model returns a complete recipe object containing prep time, cook time, serving size, difficulty, a full description, a structured ingredient list with amounts and units, numbered step-by-step cooking instructions, two to three chef tips, and per-serving nutrition data covering calories, protein, carbohydrates, and fat.
 
 ### PDF Export and Sharing
 
-<img src="asset/pic4.jpg" width="400" alt="addpic">
+<img src="assets/pic4.jpg" width="400" alt="addpic">
 
 From the Recipe Detail screen, users can download the full recipe as a styled PDF. The PDF is generated on-device using `expo-print`, which renders an HTML template into a PDF file. The file is then shared via the native share sheet using `expo-sharing`. The PDF includes all recipe sections — header with emoji and description, meta pills, ingredients, instructions, tips, and nutrition — in a clean, print-ready layout.
 
