@@ -1,5 +1,5 @@
 
-const GROQ_API_KEY = 'API_KEY';
+const GROQ_API_KEY = 'THEMONKEY';
 const GROQ_URL = 'https://api.groq.com/openai/v1/chat/completions';
 const MODEL = 'meta-llama/llama-4-scout-17b-16e-instruct';
 
