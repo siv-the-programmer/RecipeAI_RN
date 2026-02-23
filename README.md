@@ -1,6 +1,11 @@
 # Recipe AI
 
-Recipe AI is a React Native mobile application built with Expo that identifies ingredients from a photo and generates complete, personalized recipes using AI. Users photograph whatever food they have available — a fridge shelf, a grocery bag, or ingredients laid out on a counter — and the app returns six recipe ideas. Selecting any recipe triggers a second AI call that produces a full, detailed recipe including quantities, step-by-step instructions, chef tips, and nutrition data. The complete recipe can then be exported and shared as a formatted PDF.
+Recipe AI is a React Native mobile application built with Expo that identifies ingredients from a photo and generates complete, personalized recipes using 
+AI. 
+
+---
+
+Users photograph whatever food they have available — a fridge shelf, a grocery bag, or ingredients laid out on a counter — and the app returns six recipe ideas. Selecting any recipe triggers a second AI call that produces a full, detailed recipe including quantities, step-by-step instructions, chef tips, and nutrition data. The complete recipe can then be exported and shared as a formatted PDF.
 
 The app runs on Android and iOS from a single codebase. It uses the Groq API with the Llama 4 Scout model for both vision-based ingredient detection and text-based recipe generation.
 
